@@ -22,7 +22,7 @@ export class LoginPage {
     
     async goToLoginPage(href='https://tessa.somecompany.ru/test/web/login#oldlogin'){
         this.page.goto(href);
-    };git commit -m "first commit"
+    };
 
     async login(uname: string, pass=''){
         await this.username.fill(uname);
